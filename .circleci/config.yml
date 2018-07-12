@@ -23,7 +23,7 @@ jobs:
     steps:
       - checkout
 
-      - welcome: echo "Welcome!"
+      - run: echo "Welcome!"
       
       # Download and cache dependencies
       - restore_cache:
