@@ -21,9 +21,10 @@ jobs:
       MAVEN_OPTS: -Xmx3200m
     
     steps:
-      - welcome: echo "Welcome!"
       - checkout
 
+      - welcome: echo "Welcome!"
+      
       # Download and cache dependencies
       - restore_cache:
           keys:
